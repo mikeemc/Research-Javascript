@@ -65,3 +65,19 @@ if (operator === true){
 } else {
   "Show this for false"
 }
+
+// Assignment Operators
+score = score + 10;
+score += 10; // Short hand
+score = score - 20;
+score -= 20; // Short hand
+score = score * 5;
+score *= 5; // Short hand
+score = score / 2;
+score /= 2; // Short hand
+
+// Find value type
+console.log(typeof var); // shows string
+console.log(typeof parseInt(var)); // changes to Integer for whole numbers
+console.log(typeof parseFloat(var)); // changes to Float for decimals
++var // Works with both integers and floats
