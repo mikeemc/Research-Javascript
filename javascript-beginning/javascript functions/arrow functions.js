@@ -97,3 +97,25 @@ function getRandomNumber (lower, upper = 100) {
   }
   return return Math.floor(Math.random() * (upper - lower + 1)) + lower;
 }
+
+
+// Arrow function task (function then arrow)
+function addToTen(num) {
+  return 10 + num;
+}
+const addToTen = num => 10 + num;
+
+function divideUs(num1, num2) {
+  return num1/num2;
+}
+const divideUs = (num1, num2) => num1/num2;
+
+function printMyName() {
+  let myName = 'Ashley';
+	console.log(myName);
+}
+
+const printMyName = () => {
+  let myName = 'Ashley';
+	console.log(myName);
+} // Keep curly braces because there are two lines of code
